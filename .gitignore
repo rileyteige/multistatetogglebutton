@@ -13,7 +13,6 @@ classes
 gen-external-apklibs
 
 # Gradle
-gradle/
 .gradle
 build
 gradlew

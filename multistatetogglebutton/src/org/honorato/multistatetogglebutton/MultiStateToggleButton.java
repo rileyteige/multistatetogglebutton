@@ -17,7 +17,7 @@ import android.widget.LinearLayout;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MultiStateToggleButton extends ToggleButton {
+public class MultiStateToggleButton extend ToggleButton {
 
     private static final String TAG = MultiStateToggleButton.class.getSimpleName();
 

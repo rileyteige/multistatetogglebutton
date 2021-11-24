@@ -300,7 +300,8 @@ public class MultiStateToggleButton extends ToggleButton {
         button.setBackgroundResource(selected ? R.drawable.button_pressed : R.drawable.button_not_pressed);
         if (colorPressed != 0 || colorNotPressed != 0) {
             button.setBackgroundColor(selected ? colorPressed : colorNotPressed);
-        } else if (colorPressedBackground != 0 || colorNotPressedBackground != 0) {
+        }
+        if (colorPressedBackground != 0 || colorNotPressedBackground != 0) {
           button.setBackgroundColor(selected ? colorPressedBackground : colorNotPressedBackground);
         }
         if (button instanceof Button) {
